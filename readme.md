@@ -2,7 +2,7 @@
 
 > Brackets Dark Theme for [Hyper](https://hyper.is) based on the default [Brackets](http://brackets.io) Dark theme.
 
-![hyper-brackets-dark](screen.png)
+![hyper-brackets-dark](https://repository-images.githubusercontent.com/200406975/7594e380-b60e-11e9-8c1c-44a0268e2abc)
 
 ## Install
 
