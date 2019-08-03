@@ -2,6 +2,8 @@
 
 > Brackets Dark Theme for [Hyper](https://hyper.is) based on the default [Brackets](http://brackets.io) Dark theme.
 
+![hyper-brackets-dark](screen.png)
+
 ## Install
 
 Add `hyper-brackets-dark` to the plugins array in your `~/.hyper.js` config.
