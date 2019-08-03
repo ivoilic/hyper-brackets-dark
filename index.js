@@ -1,42 +1,57 @@
 // Syntax scheme
-const backgroundColor   = '#293340';
-const foregroundColor   = '#CDD2E9';
-const cursorColor       = '#2C85F7';
-const borderColor       = '#323E4D';
-const colors            = {
-      black             : backgroundColor,
-      red               : '#E17E85',
-      green             : '#61BA86',
-      yellow            : '#FFEC8E',
-      blue              : '#4CB2FF',
-      magenta           : '#BE86E3',
-      cyan              : '#2DCED0',
-      white             : foregroundColor,
-      lightBlack        : '#546386',
-      lightRed          : '#E17E85',
-      lightGreen        : '#61BA86',
-      lightYellow       : '#FFB68E',
-      lightBlue         : '#4CB2FF',
-      lightMagenta      : '#BE86E3',
-      lightCyan         : '#2DCED0',
-      lightWhite        : foregroundColor
+
+const brackets = {
+  black: "#1d1f21",
+  white: "#dddddd",
+  orange: "#d89333",
+  red: "#dc322f",
+  green: "#85a300",
+  blue: "#6c9ef8",
+  purple: "#b77fdb",
+  bluePurple: "#6c71c4",
+  pink: "#d85896",
+  gray: "#767676"
+};
+
+const backgroundColor = brackets.black;
+const foregroundColor = brackets.white;
+const cursorColor = "#c5c8c6";
+const borderColor = "#333F48";
+
+const colors = {
+  black: backgroundColor,
+  red: brackets.orange,
+  green: brackets.green,
+  yellow: brackets.pink,
+  blue: brackets.blue,
+  magenta: brackets.bluePurple,
+  cyan: brackets.purple,
+  white: foregroundColor,
+  lightBlack: brackets.gray,
+  lightRed: brackets.orange,
+  lightGreen: brackets.green,
+  lightYellow: brackets.pink,
+  lightBlue: brackets.blue,
+  lightMagenta: brackets.bluePurple,
+  lightCyan: brackets.purple,
+  lightWhite: foregroundColor
 };
 
 // Config
 exports.decorateConfig = config => {
-    return Object.assign({}, config, {
-        foregroundColor,
-        backgroundColor,
-        borderColor,
-        colors,
-        cursorColor: config.cursorColor || cursorColor,
-        cursorShape: config.cursorShape || 'BEAM',
-        fontSize: config.fontSize || 12,
-        fontFamily: config.fontFamily || '"Fira Code"',
-        termCSS: `
-            ${config.termCSS || ''}
+  return Object.assign({}, config, {
+    foregroundColor,
+    backgroundColor,
+    borderColor,
+    colors,
+    cursorColor: config.cursorColor || cursorColor,
+    cursorShape: config.cursorShape || "BEAM",
+    fontSize: config.fontSize || 12,
+    fontFamily: config.fontFamily || "Space Mono",
+    termCSS: `
+            ${config.termCSS || ""}
             ::selection {
-                background: #9198A2 !important;
+                background: #333F48 !important;
             }
             x-screen x-row {
                 font-variant-ligatures: initial;
@@ -45,11 +60,11 @@ exports.decorateConfig = config => {
                 font-weight: normal !important;
             }
         `,
-        css: `
-            ${config.css || ''}
+    css: `
+            ${config.css || ""}
             ::selection {
-                background: #9198A2 !important;
+                background: #333F48 !important;
             }
         `
-    });
+  });
 };

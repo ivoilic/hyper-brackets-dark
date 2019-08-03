@@ -1,28 +1,18 @@
-# hyper-chesterish  [![npm](https://img.shields.io/npm/v/hyper-chesterish.svg?maxAge=86400?style=flat-square)](https://www.npmjs.com/package/hyper-chesterish) [![npm](https://img.shields.io/npm/dm/hyper-chesterish.svg?maxAge=86400?style=flat-square)](https://www.npmjs.com/package/hyper-chesterish)
+# hyper-brackets-dark [![npm](https://img.shields.io/npm/v/hyper-brackets-dark.svg?maxAge=86400?style=flat-square)](https://www.npmjs.com/package/hyper-brackets-dark) [![npm](https://img.shields.io/npm/dm/hyper-brackets-dark.svg?maxAge=86400?style=flat-square)](https://www.npmjs.com/package/hyper-brackets-dark)
 
-> Chesterish Theme for [Hyper](https://hyper.is) based on [Jupyter](https://github.com/dunovank/jupyter-themes) schemes.
-
-![hyper-chesterish](https://cloud.githubusercontent.com/assets/1430576/21888813/3c806682-d8c6-11e6-845d-ca903b6823e8.png)
-![hyper-chesterish-tabs](https://cloud.githubusercontent.com/assets/1430576/21888817/3ef51610-d8c6-11e6-85d9-f0eabd1ee5a2.png)
-
+> Brackets Dark Theme for [Hyper](https://hyper.is) based on the default [Brackets](http://brackets.io) Dark theme.
 
 ## Install
 
-Add `hyper-chesterish` to the plugins array in your `~/.hyper.js` config.
-
+Add `hyper-brackets-dark` to the plugins array in your `~/.hyper.js` config.
 
 ## Plugins
 
-* [hyper-tabs-enhanced](https://github.com/henrikdahl/hyper-tabs-enhanced)
-* [hyper-statusline](https://github.com/henrikdahl/hyper-statusline)
-
-
-## Other
-
-* [hyper-aurora](https://github.com/henrikdahl/hyper-aurora)
-* [hyper-oceans16](https://github.com/henrikdahl/hyper-oceans16)
-
+- [hyper-tabs-enhanced](https://github.com/henrikdahl/hyper-tabs-enhanced)
+- [hyper-statusline](https://github.com/henrikdahl/hyper-statusline)
 
 ## License
 
-MIT © Henrik
+MIT © Ivo Ilić
+
+[hyper-chesterish](https://github.com/henrikdahl/hyper-chesterish) _(MIT © Henrik)_ used as a starting point for this theme

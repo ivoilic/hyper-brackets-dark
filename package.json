@@ -1,13 +1,13 @@
 {
-  "name": "hyper-chesterish",
-  "version": "1.2.8",
-  "description": "Chesterish Theme for Hyper",
+  "name": "hyper-brackets-dark",
+  "version": "1.0.0",
+  "description": "Brackets Dark Theme for Hyper",
   "main": "index.js",
   "license": "MIT",
-  "repository": "henrikdahl/hyper-chesterish",
+  "repository": "ivoilic/hyper-brackets-dark",
   "author": {
-    "name": "Henrik Dahlheim",
-    "email": "henrik.dahlheim@gmail.com"
+    "name": "Ivo Ilic",
+    "email": "admin@ivoilic.com"
   },
   "files": [
     "index.js"
@@ -17,7 +17,9 @@
     "hyper-theme",
     "hyperterm",
     "hyperterm-theme",
-    "chesterish",
-    "hyper-chesterish"
+    "brackets",
+    "dark",
+    "brackets-dark",
+    "hyper-brackets-dark"
   ]
 }
